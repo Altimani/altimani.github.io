@@ -1,17 +1,40 @@
-body {}
+/*GLOBAL---------------------------------------*/
 
-a {
-    font-size: 35px;
-    text-decoration: none;
-    color: darkgray;
+body {
+    margin: 0;
+    font-family: comic sans ms;
 }
 
 ul {
-    display: flex;
     list-style: none;
-    background: green
+    margin: 0;
 }
-li {
-    margin: 0 10px 0 0;
-    border-right: 3px solid black;
+
+a {
+    text-decoration: none;
+    font: bold 15px comic sans ms;
+    color: white;
 }
+
+/*HEADER------------------------------------------*/
+header {
+    margin: 0 0 5px 0;
+    padding: 26px 0 0 15px;
+    background: url('images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA.PNG') center/cover no-repeat;
+}
+
+h1 {
+    line-height: 26px;
+    color: linear-gradient(red, black);
+    text-align: left;
+    font-size: 47px;
+    margin: 10px 5px 0 0;
+    background: linear-gradient(20deg, red 33%, black 66%, #8AA9D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.small-h1 {
+    font-size: 26px;
+}
+/*----------------------------------------------------*/
